@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//https://amoelcodigo.com/pokedex-pokeapi-angular-material/
 
 @Component({
   selector: 'app-root',
