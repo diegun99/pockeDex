@@ -6,8 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { DetalleComponent } from './componentes/detalle/detalle.component';
-import { TablaComponent } from './componentes/tabla/tabla.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HttpClientModule } from '@angular/common/http';
+import { TablaComponent } from './componentes/tabla/tabla.component';
+import { MaterialModule } from './shared/material.module';
 
 
 @NgModule({
@@ -22,6 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
+    MaterialModule
 
   ],
   providers: [],

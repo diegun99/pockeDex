@@ -7,7 +7,7 @@ import { TablaComponent } from './componentes/tabla/tabla.component';
 
 const routes: Routes = [
   {path: 'home', component: TablaComponent},
-  {path: 'pokeDetail/:id', component: DetalleComponent},
+  {path: 'detalle/:id', component: DetalleComponent},
   {path: '', pathMatch: 'full', redirectTo: 'home' },
   {path: '**', pathMatch: 'full', redirectTo: 'home'},
 ];
