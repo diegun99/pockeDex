@@ -10,7 +10,11 @@ import { DetalleComponent } from './componentes/detalle/detalle.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { TablaComponent } from './componentes/tabla/tabla.component';
-import { MaterialModule } from './shared/material.module';
+import { MaterialModule } from 'src/shared/material.module';
+
+
+
+
 
 
 @NgModule({
@@ -19,9 +23,13 @@ import { MaterialModule } from './shared/material.module';
     HeaderComponent,
     FooterComponent,
     DetalleComponent,
-    TablaComponent
+    TablaComponent,
+
+
+    
   ],
   imports: [
+    
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

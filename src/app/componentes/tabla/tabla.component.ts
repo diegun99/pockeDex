@@ -59,9 +59,9 @@ export class TablaComponent implements OnInit {
   }
 
  //Obtiene elemento seleccionado
-  getRow(row: { position: any; }){
+  getRow(row: any){
     //console.log(row);
-    this.router.navigateByUrl(`/pokeDetail/${row.position}`)
+    this.router.navigateByUrl(`/detalle/${row.position}`)
   }
 
 }
